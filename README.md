@@ -1,4 +1,4 @@
-# Python TODO CLi
+# Python TODO CLI
 
 This project is created as a part of the python daily coding habit
 
