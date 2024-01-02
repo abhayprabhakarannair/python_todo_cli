@@ -1,14 +1,21 @@
-# Get inputs from user
-todo1 = input("Enter a todo: ")
-todo2 = input("Enter a todo: ")
-todo3 = input("Enter a todo: ")
+# Declare a list to store todos
+todo_list = []
 
-# Declare a list of todos
-todo_list = [todo1, todo2, todo3]
+# Count initialized with 1 as a starting point
+count = 1
 
-# Print those
-print(todo_list)
+# Do this code repeatedly until count reaches 5
+while count <= 5:
+    # Get input from user
+    todo = input("Enter a todo: ")
+    # Capitalize the entered todo_item
+    capitalized_todo = todo.capitalize()
+    # Add to the existing list
+    todo_list.append(capitalized_todo)
+    # Print list data
+    print(todo_list)
+    # Increment count
+    count = count+1
 
-# See the type difference of the todo1 and the todo_list
-print(type(todo1))
-print(type(todo_list))
+# Should have only 5 items
+print("You entered " + str(len(todo_list)) + " todo items")
