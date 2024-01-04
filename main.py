@@ -5,7 +5,7 @@ todo_list = []
 count = 1
 
 # Do this code repeatedly until count reaches 5
-while count <= 5:
+while count <= 10:
     # Get input from user
     todo = input("Enter a todo: ")
     # Capitalize the entered todo_item
