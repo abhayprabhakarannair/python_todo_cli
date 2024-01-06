@@ -44,3 +44,14 @@ for index, todo in enumerate(todo_list):
 todo_dict = [{"title": todo, "is_complete": False} for todo in todo_list]
 
 print(todo_dict)
+
+
+# Function for change
+def mark_complete(todo_dict, index):
+    todo_dict[index]["is_complete"] = True
+
+
+mark_complete(todo_dict, 0)
+mark_complete(todo_dict, 2)
+
+print(todo_dict)
